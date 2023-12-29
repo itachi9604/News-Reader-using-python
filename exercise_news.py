@@ -17,7 +17,7 @@ def readn(nstr):
 
 
 
-url="https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=80ce84194eb044458abb49488f793150"
+url="https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=<API_KEY>"
 r=requests.get(url)
 r1=r.text
 parsed_news=json.loads(r1)
